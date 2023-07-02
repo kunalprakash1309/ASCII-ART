@@ -36,9 +36,9 @@ sub_part = len(ASCII_CHARS)/255
 # font_height = 6
 
 # config for light image
-scalar_factor = 0.3      # decrease to less than or equal to 0.1 if size of image is large 
-font_width = 7          # you can change this value on your use(between 5 and 25)
-font_height = 7         # you can change this value on your use (try to keep it same as font_width)   
+scalar_factor = 0.2      # decrease to less than or equal to 0.1 if size of image is large 
+font_width = 5          # you can change this value on your use(between 5 and 25)
+font_height = 5         # you can change this value on your use (try to keep it same as font_width)   
 
 # for adding different fonts
 # font = ImageFont.truetype("ARIAL.TTF", 15)
@@ -95,6 +95,7 @@ def main():
 
     height = im.height
     width = im.width
+    print(width, height)
 
     for i in range(height):
         for j in range(width):

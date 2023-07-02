@@ -30,7 +30,7 @@ ASCII art is a graphic design technique that uses computers for presentation and
 
 Original image:
 
-![dog.jpg](/dog.jpg)
+![dog.jpg](./images/dog.jpg)
 
 Console: Run this in on your console
 
@@ -38,7 +38,11 @@ Console: Run this in on your console
 
 Output image:
 
-![output.jpg](/output.jpg)
+![output.jpg](./images/output.jpg)
+
+After zooming the output image. We can see that each pixel represent the characters.
+
+![output-zoom.png](./images/output-zoom.png)
 
 
 
